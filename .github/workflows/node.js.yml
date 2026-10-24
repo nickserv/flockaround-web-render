@@ -21,7 +21,7 @@ jobs:
           runtime: node@${{ matrix.node-version }}
           cache: true
       - name: Check formatting with Prettier
-        run: prettier --check .
+        run: pnpm prettier --check .
       - name: Build with tsdown
         run: pnpm build
       - name: Upload artifact
