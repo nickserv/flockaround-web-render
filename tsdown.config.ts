@@ -2,6 +2,7 @@ import { defineConfig } from "tsdown";
 
 export default defineConfig({
   entry: ["./src/main.ts"],
+  platform: "browser",
   deps: {
     alwaysBundle: "pixi.js",
     onlyBundle: false,
