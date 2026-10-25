@@ -20,6 +20,8 @@ jobs:
           version: 12
           runtime: node@${{ matrix.node-version }}
           cache: true
+      - name: Check types with TypeScript
+        run: pnpm tsc
       - name: Check formatting with Prettier
         run: pnpm prettier --check .
       - name: Build with tsdown
