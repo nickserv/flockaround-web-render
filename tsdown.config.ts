@@ -11,6 +11,7 @@ export default defineConfig({
   outputOptions: {
     entryFileNames: "main.js",
   },
+  copy: "src/style.css",
   loader: {
     ".vert": "text",
     ".frag": "text",
