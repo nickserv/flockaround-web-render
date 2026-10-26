@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "lib": ["esnext", "dom"],
     "module": "preserve",
-    "noUnusedLocals": true,
     "noEmit": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true
