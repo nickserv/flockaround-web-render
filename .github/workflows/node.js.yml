@@ -13,9 +13,9 @@ jobs:
           version: 12
           cache: true
       - name: Check types with TypeScript
-        run: pnpm tsc
+        run: pnpm typecheck
       - name: Check formatting with Prettier
-        run: pnpm prettier --check .
+        run: pnpm format
       - name: Build with tsdown
         run: pnpm build
       - name: Upload artifact
