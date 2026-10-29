@@ -1,3 +1,4 @@
 allowBuilds:
   "@parcel/watcher": false
   fsevents: false
+  vue-demi: false

@@ -21,6 +21,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@wikimedia/codex": "1.19.1",
     "pixi.js": "^8.22.0"
   },
   "prettier": {
